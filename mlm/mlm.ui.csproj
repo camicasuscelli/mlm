@@ -238,6 +238,16 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\mlm.bussiness\mlm.bussiness.csproj">
+      <Project>{56ffab46-c6d1-4f5d-bb04-c0fa3b790fce}</Project>
+      <Name>mlm.bussiness</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\mlm.common\mlm.common.csproj">
+      <Project>{a88ed459-6e6e-4acc-9f66-cb41f85c223c}</Project>
+      <Name>mlm.common</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
